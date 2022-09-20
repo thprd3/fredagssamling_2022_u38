@@ -1,0 +1,19 @@
+:root {
+}
+
+.slide {
+    height: 96vh;
+    width: 98vw;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    font-size: 300%;
+    position: fixed;
+
+}

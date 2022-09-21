@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+#swag {
+    text-align: right;
+    width: 100%;
+    background-color: aquamarine;
+}

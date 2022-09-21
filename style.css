@@ -1,19 +1,33 @@
 :root {
+    overflow: hidden;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .slide {
     height: 96vh;
     width: 98vw;
-    border: 2px solid black;
     margin-bottom: 20px;
 }
 
 h1 {
     text-align: center;
+    font-size: 400%;
+}
+
+p, li {
+    font-size: 250%;
 }
 
 button {
     font-size: 300%;
     position: fixed;
+}
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fade {
+    animation: fadein 2s;
 }

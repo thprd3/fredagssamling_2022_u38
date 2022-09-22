@@ -1,13 +1,14 @@
 :root {
     overflow: hidden;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: rgb(64, 179, 224);
 }
 
 .slide {
     height: 96vh;
     width: 98vw;
     margin-bottom: 20px;
-}
+}   
 
 h1 {
     text-align: center;
@@ -21,6 +22,24 @@ p, li {
 button {
     font-size: 300%;
     position: fixed;
+}
+
+#termin {
+    width: 500px;
+    height: 550px;
+    display: block;
+    margin:auto;
+}
+
+#introHeader {
+    font-style: italic;
+}
+
+#a {
+    background-image: url("images/background_intro.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @keyframes fadein {

@@ -1,12 +1,12 @@
 :root {
     overflow: hidden;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", sans-serif;
     background-color: rgb(64, 179, 224);
 }
 
 .slide {
-    height: 96vh;
-    width: 98vw;
+    height: 100vh;
+    width: 100vw;
     margin-bottom: 20px;
 }   
 
@@ -28,7 +28,33 @@ button {
     width: 500px;
     height: 550px;
     display: block;
+    margin: auto;
+}
+
+#example {
+    display: block;
     margin:auto;
+    margin-top: 50px; 
+    width: 50%;
+    height: 50%;
+}
+
+#praktisk {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#praktisk img {
+    width: 25%;
+    height: 25%;
+}
+
+#layout {
+    width: 100%;
 }
 
 #introHeader {

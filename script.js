@@ -1,3 +1,5 @@
+// scriptet bruker jeg bare for å kunne "bla" i slides med høyre pil. Spør meg hvis du er nysgjerrig på koden!
+
 let current = "a";
 const slides = ["a", "b", "c", "d", "e", "f"];
 const base_url = "http://127.0.0.1:5501/index.html"

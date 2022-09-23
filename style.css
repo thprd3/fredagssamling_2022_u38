@@ -74,5 +74,5 @@ p, li {
 }
 
 .fade {
-    animation: fadein 2s;
+    animation: fadein 2s; /*Jeg bruker JS for å gjøre at denne animasjonen spiller hver gang man går til neste slide */
 }

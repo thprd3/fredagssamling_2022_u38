@@ -1,13 +1,13 @@
 :root {
-    overflow: hidden;
+    overflow: hidden; /* skjuler scrollbar, stopper kontroll med datamus */
     font-family: "Century Gothic", sans-serif;
     background-color: rgb(64, 179, 224);
 }
 
 .slide {
-    height: 100vh;
-    width: 100vw;
-    margin-bottom: 20px;
+    height: 100vh; /*vh = view height. vw = view width. */
+    width: 100vw; /* denne og linjen over sier at hver "slide" skal dekke hele browser-vinduet */
+    margin-top: 2000px; /* avstand mellom slides, safety measure */
 }   
 
 h1 {
@@ -17,11 +17,6 @@ h1 {
 
 p, li {
     font-size: 250%;
-}
-
-button {
-    font-size: 300%;
-    position: fixed;
 }
 
 #termin {
@@ -37,6 +32,11 @@ button {
     margin-top: 50px; 
     width: 50%;
     height: 50%;
+}
+
+#container {
+    display: flex;
+    margin-right: 10%;
 }
 
 #praktisk {
@@ -63,7 +63,7 @@ button {
 
 #a {
     background-image: url("images/background_intro.png");
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
